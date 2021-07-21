@@ -10,11 +10,14 @@ import WhyUs from "./components/WhyUs/WhyUs";
 import Advisor from "./components/Advisor/Advisor";
 import Started from "./components/Started/Started";
 import Footer from "./components/Footer/Footer";
+import HRManage from "./components/HRManage/HRManage";
 function App() {
   return (
     <div className="App">
       <Top />
       <Services />
+      <HRManage />
+
       <Payroll />
       <Benefits />
       <Services2 />

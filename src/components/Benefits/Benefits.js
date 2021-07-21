@@ -176,7 +176,7 @@ class Benefits extends Component {
                 </div>
                 <div
                   style={{
-                    backgroundColor: "white",
+                    backgroundColor: "#FCFCFD",
                     marginTop: "10px",
                     borderRadius: "10px",
                     padding: "3%",
@@ -188,50 +188,265 @@ class Benefits extends Component {
                   <div style={{ fontWeight: "bold" }}>
                     Here's A summary of the plans selected
                   </div>
-                  <div className="row">
+                  <div
+                    className="row"
+                    style={{ display: "flex", justifyContent: "space-around" }}
+                  >
                     <div
                       className="col-4"
-                      style={{ padding: "1%", boxShadow: "2px 2px  2px grey" }}
+                      style={{
+                        padding: "1%",
+                        boxShadow: "0 0 2px grey",
+                        backgroundColor: "white",
+                        boxSizing: "border-box",
+                        width: "30%",
+                        marginLeft: "5px",
+                        marginTop: "5px",
+                        borderRadius: "8px",
+                      }}
                     >
-                      <div></div>
-                      <div>
+                      <div style={{ height: "40px", marginLeft: "2%" }}></div>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                        }}
+                      >
                         <h6>Medical</h6>
                         <h6>$393.23</h6>
                       </div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div>
-                        <button>Plan Detail</button>
-                        <button>Change Detail</button>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                          marginTop: "7px",
+                        }}
+                      >
+                        <button
+                          style={{
+                            border: "none",
+                            outline: "none",
+                            backgroundColor: "rgb(233,233,233)",
+                            padding: "1%",
+                            color: "#3b3b3b",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          Plan Detail
+                        </button>
+                        <button
+                          style={{
+                            border: "none",
+                            outline: "none",
+                            backgroundColor: "rgb(233,233,233)",
+                            padding: "1%",
+                            color: "#3b3b3b",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          Change Detail
+                        </button>
                       </div>
                     </div>
-                    <div className="col-4">
-                      <div></div>
-                      <div>
-                        <h3>Medical</h3>
-                        <h3>$393.23</h3>
+
+                    <div
+                      className="col-4"
+                      style={{
+                        padding: "1%",
+                        boxShadow: "0 0 2px grey",
+                        backgroundColor: "white",
+                        boxSizing: "border-box",
+                        width: "30%",
+                        marginLeft: "5px",
+                        marginTop: "25px",
+                        borderRadius: "8px",
+                      }}
+                    >
+                      <div style={{ height: "40px", marginLeft: "2%" }}></div>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                        }}
+                      >
+                        <h6>Medical</h6>
+                        <h6>$393.23</h6>
                       </div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div>
-                        <button>Plan Detail</button>
-                        <button>Change Detail</button>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                          marginTop: "7px",
+                        }}
+                      >
+                        <button
+                          style={{
+                            border: "none",
+                            outline: "none",
+                            backgroundColor: "rgb(233,233,233)",
+                            padding: "1%",
+                            color: "#3b3b3b",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          Plan Detail
+                        </button>
+                        <button
+                          style={{
+                            border: "none",
+                            outline: "none",
+                            backgroundColor: "rgb(233,233,233)",
+                            padding: "1%",
+                            color: "#3b3b3b",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          Change Detail
+                        </button>
                       </div>
                     </div>
-                    <div className="col-4">
-                      <div></div>
-                      <div>
-                        <h3>Medical</h3>
-                        <h3>$393.23</h3>
+
+                    <div
+                      className="col-4"
+                      style={{
+                        padding: "1%",
+                        boxShadow: "0 0 2px grey",
+                        backgroundColor: "white",
+                        boxSizing: "border-box",
+                        width: "30%",
+                        marginLeft: "5px",
+                        marginTop: "5px",
+                        borderRadius: "8px",
+                      }}
+                    >
+                      <div style={{ height: "40px", marginLeft: "2%" }}></div>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                        }}
+                      >
+                        <h6>Medical</h6>
+                        <h6>$393.23</h6>
                       </div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div>
-                        <button>Plan Detail</button>
-                        <button>Change Detail</button>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          height: "7px",
+                          width: "100%",
+                          backgroundColor: "#DFDFDF",
+                          borderRadius: "6px",
+                          margin: "1%",
+                        }}
+                      ></div>
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                          marginTop: "7px",
+                        }}
+                      >
+                        <button
+                          style={{
+                            border: "none",
+                            outline: "none",
+                            backgroundColor: "rgb(233,233,233)",
+                            padding: "1%",
+                            color: "#3b3b3b",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          Plan Detail
+                        </button>
+                        <button
+                          style={{
+                            border: "none",
+                            outline: "none",
+                            backgroundColor: "rgb(233,233,233)",
+                            padding: "1%",
+                            color: "#3b3b3b",
+                            borderRadius: "5px",
+                          }}
+                        >
+                          Change Detail
+                        </button>
                       </div>
                     </div>
                   </div>
