@@ -1,0 +1,25 @@
+/* .check {
+  background-color: #f8f8f8;
+  /* color: green; 
+  /* font-size: 2rem;
+  border-radius: 50%;
+  padding: 2%;
+} */
+.check {
+  color: green;
+  background-color: #f8f8f8;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px rgb(219, 217, 217);
+  font-size: 30px;
+}
+.services {
+  position: relative;
+  margin-top: 150px;
+  font-size: 2rem;
+  color: #3980da;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

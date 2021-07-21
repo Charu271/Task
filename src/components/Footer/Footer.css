@@ -1,0 +1,17 @@
+.footer {
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+}
+.footer h3 {
+  color: #3b3b3b;
+}
+.footer ul {
+  list-style: none;
+  margin-left: -40px;
+  margin-top: 20px;
+}
+.footer ul li {
+  line-height: 25px;
+  letter-spacing: 1px;
+}

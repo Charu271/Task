@@ -1,0 +1,19 @@
+.hr {
+  padding: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hr-left {
+  color: #3a3939;
+  font-size: 4rem;
+  font-weight: bolder;
+  padding: 4%;
+  padding-left: 7%;
+}
+.hr-right {
+  color: rgb(104, 101, 101);
+  font-size: 2rem;
+  padding: 4%;
+  padding-right: 7%;
+}
